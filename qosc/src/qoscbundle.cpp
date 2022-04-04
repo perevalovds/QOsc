@@ -1,5 +1,5 @@
 #include <qoscbundle.h>
-#include <QBuffer>
+#include <QtCore/QBuffer>
 
 #include "qoscbundle_p.h"
 #include "qoscvalue_p.h"

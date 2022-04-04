@@ -1,6 +1,6 @@
 #include <qoscinterface.h>
 #include <private/qobject_p.h>
-#include <QBuffer>
+#include <QtCore/QBuffer>
 #include <QNetworkDatagram>
 #include <QTimer>
 #include <QNetworkInterface>

@@ -5,7 +5,7 @@
 #include "qoscmessage_p.h"
 #include "qoscbundle_p.h"
 
-#include <QBuffer>
+#include <QtCore/QBuffer>
 
 #define _STR(x) #x
 #define STRINGIFY(x) _STR(x)

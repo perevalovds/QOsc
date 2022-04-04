@@ -4,7 +4,7 @@
 #include "qoscvalue_p.h"
 #include "qoscbundle.h"
 
-#include <QBuffer>
+#include <QtCore/QBuffer>
 
 QOscMessagePrivate::QOscMessagePrivate(QOscMessage* q) :
     q_ptr(q)
