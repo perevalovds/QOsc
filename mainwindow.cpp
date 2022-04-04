@@ -27,7 +27,6 @@ MainWindow::~MainWindow()
 void MainWindow::onOscMessage(const QOscMessage& msg)
 {
     ui->ReceivedEdit->append("OSC received: " + msg.pattern() + " " + msg.at(0).toString());
-    Finish HERE!
 }
 
 void MainWindow::osc_send(QString address, const QOscValue &value)
