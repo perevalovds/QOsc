@@ -1,14 +1,21 @@
 #ifndef QOSC_GLOBAL_H
 #define QOSC_GLOBAL_H
 
+//----------------------------------------------------------
+// QOsc - Qt based library that implement the OSC protocol
+// Original code: https://github.com/NicoG60/QOsc
+//----------------------------------------------------------
+
 #include <QtCore/qglobal.h>
 #include <QtCore/qobject.h>
 
-#if defined(QOSC_LIBRARY)
-#  define QOSC_EXPORT Q_DECL_EXPORT
-#else
-#  define QOSC_EXPORT Q_DECL_IMPORT
-#endif
+#define QOSC_EXPORT
+// Commented using export as DLL:
+//#if defined(QOSC_LIBRARY)
+//#  define QOSC_EXPORT Q_DECL_EXPORT
+//#else
+//#  define QOSC_EXPORT Q_DECL_IMPORT
+//#endif
 
 class QOscMessage;
 class QOscBundle;

@@ -1,6 +1,0 @@
-#ifndef QOSCMESSAGE
-#define QOSCMESSAGE
-
-#include "qoscmessage.h"
-
-#endif // QOSCMESSAGE

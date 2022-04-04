@@ -1,6 +1,11 @@
 #ifndef QOSCVALUE_H
 #define QOSCVALUE_H
 
+//----------------------------------------------------------
+// QOsc - Qt based library that implement the OSC protocol
+// Original code: https://github.com/NicoG60/QOsc
+//----------------------------------------------------------
+
 #include "qosc_global.h"
 
 #include <QIODevice>

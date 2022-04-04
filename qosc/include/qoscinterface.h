@@ -1,13 +1,18 @@
 #ifndef QOSCINTERFACE_H
 #define QOSCINTERFACE_H
 
+//----------------------------------------------------------
+// QOsc - Qt based library that implement the OSC protocol
+// Original code: https://github.com/NicoG60/QOsc
+//----------------------------------------------------------
+
 #include "qoscmethod.h"
 #include "qoscmessage.h"
 #include "qoscbundle.h"
 #include <QHostAddress>
 
 class QOscInterfacePrivate;
-class QOSC_EXPORT QOscInterface :  public QObject
+class QOscInterface :  public QObject
 {
     Q_OBJECT
 

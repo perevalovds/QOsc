@@ -1,6 +1,11 @@
 #ifndef QOSCMETHOD_H
 #define QOSCMETHOD_H
 
+//----------------------------------------------------------
+// QOsc - Qt based library that implement the OSC protocol
+// Original code: https://github.com/NicoG60/QOsc
+//----------------------------------------------------------
+
 #include "qoscmessage.h"
 
 class QOSC_EXPORT QOscMethod

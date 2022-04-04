@@ -1,3 +1,0 @@
-add_executable(types tst_types.cpp)
-target_link_libraries(types PUBLIC QOsc Qt5::Test)
-add_test(NAME types COMMAND types)

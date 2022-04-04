@@ -1,6 +1,11 @@
 #ifndef QOSCBUNDLE_H
 #define QOSCBUNDLE_H
 
+//----------------------------------------------------------
+// QOsc - Qt based library that implement the OSC protocol
+// Original code: https://github.com/NicoG60/QOsc
+//----------------------------------------------------------
+
 #include "qoscmessage.h"
 
 class QOscBundlePrivate;
